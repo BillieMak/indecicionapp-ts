@@ -26,7 +26,7 @@ export const useChat = () => {
 
     if (!text.endsWith('?')) return
 
-    await sleep(1500)
+    await sleep(800)
 
     const { answer, image } = await getResponse()
 
